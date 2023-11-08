@@ -4,7 +4,7 @@ pragma solidity ^0.8.0;
 import "./ERC721Enumerable.sol";
 import "./Ownable.sol";
 
-contract NTF is ERC721Enumerable, Ownable {
+contract NFT is ERC721Enumerable, Ownable {
     using Strings for uint256;
 
     string public baseURI;
